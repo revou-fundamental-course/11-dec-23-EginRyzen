@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RevoU</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav>
+        <!-- <div class="container"> -->
+        <div class="logo">
+            <img src="./images/revo.jpg" alt="">
+        </div>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Our Prfile</a></li>
+            <li><a href="">Portofolio</a></li>
+            <li><a href="">Message Us</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <input type="checkbox" name="" id="">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <!-- </div> -->
+    </nav>
+    <div class="main">
+        <div class="container">
+            <h2>Hi Egin, Welcome To Website</h2>
+            <p>Ini adalah Website Latihan Pertama</p>
+        </div>
+    </div>
+    <div class="section-1">
+        <div class="container">
+            <h1>Our Facilitation</h1>
+            <div class="fasiitas-card">
+                <div class="card">
+                    <div class="foto"></div>
+                    <div class="body">
+                        <h4>Professional Teacher</h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="foto"></div>
+                    <div class="body">
+                        <h4>Sport Field</h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="foto"></div>
+                    <div class="body">
+                        <h4>Professional Teacher</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-2">
+        <div class="container">
+            <h1>Message Us</h1>
+            <div class="message">
+                <div class="input">
+                    <div class="form-group">
+                        <label for="nama">Nama</label>
+                        <span>:</span>
+                        <input type="text" class="form-input" id="nama" name="nama" placeholder="Nama" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="tgl_lahir">Tgl Lahir</label>
+                        <span>:</span>
+                        <input class="form-input" type="date" id="nama" name="tgl_lahir" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Jenis Kelamin</label>
+                        <span>:</span>
+                        <input type="radio" class="radio" id="html" name="fav_language" value="Laki-Laki">
+                        <span>Laki-Laki</span>
+                        <input type="radio" class="radio" name="fav_language" value="Perempuan">
+                        <span>Perempuan</span><br>
+                    </div>
+                    <div class="form-group">
+                        <label for="tgl_lahir">Tgl Lahir</label>
+                        <span>:</span>
+                        <textarea class="textarea" name="w3review" rows="7" cols="50" placeholder="Pesan"></textarea>
+                    </div>
+                    <p>
+                        <button type="submit" id="submit" onclick="Data()">Submit</button>
+                    </p>
+                </div>
+                <div class="output">
+                    <div class="hasil">
+                        <div class="value">
+                            <p><span>Current Time : </span><label id="output_time"></label></p>
+                            <br>
+                            <p><span>Nama : </span><label id="output_nama"></label></p>
+                            <p><span>Tanggal Lahir : </span><label id="output_tgllhr"></label></p>
+                            <p><span>Jenis Kelamin : </span><label id="output_jk"></label></p>
+                            <p><span>Pesan : </span><label id="output_pesan"></label></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Created By Egin</p>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
